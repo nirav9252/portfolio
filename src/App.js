@@ -13,7 +13,7 @@ function App() {
       <div className="row flex-nowrap">
         <Sidebar></Sidebar>
         <Routes>
-          <Route path="/nirav-portfolio" element={<Home />} exact></Route>
+          <Route path="/portfolio" element={<Home />} exact></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/resume" element={<Resume />}></Route>
